@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reduce Exercise</title>
+    <link rel="stylesheet" href="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/jasmine.css" />
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h1>Reduce Exercises</h1>
+    <hr>
+    <hr>
+
+    <section id="extract">
+        <h2>extractValue</h2>
+        <div>[ { name: <input type="text" class="arr-enter"> } ,
+            { name: <input type="text" class="arr-enter"> } ,
+            { name: <input type="text" class="arr-enter"> } ] <button>extractValue</button></div>
+            <input type="text" class="answer" value="names array" readonly>
+    </section>
+    <hr>
+
+    <section id="vowel">
+        <h2>vowelCount</h2>
+        <input type="text" class="str-enter">
+        <button>vowelCount</button>
+        <input type="text" class="answer" value="how many vowels?" readonly>
+    </section>
+    <hr>
+
+    <section id="add-key-val">
+        <h2>addKeyAndValue</h2>
+        <p></p>
+        <div>key : <input type="text" class="arr-enter key"> value : <input type="text" class="arr-enter val"><br></div>
+        <button>addKeyAndValue</button>
+            <input type="text" class="answer" value="new keys and values" readonly>
+    </section>
+    <hr>
+
+    <section id="partition">
+        <h2>partition</h2>
+        <div>[ <input type="number" max="999" class="arr-enter"> ,
+            <input type="number" max="999" class="arr-enter"> ,
+            <input type="number" max="999" class="arr-enter"> ,
+            <input type="number" max="999" class="arr-enter"> ,
+            <input type="number" max="999" class="arr-enter"> ] <br>
+            <button class="even">partition(isEven)</button>
+            <button class="odd">partition(isOdd)</button></div>
+            <input type="text" class="answer true" value="true values" readonly>
+            <input type="text" class="answer false" value="false values" readonly>
+    </section>
+    <hr>
+
+    <script src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/jasmine.js"></script>
+    <script src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/jasmine-html.js"></script>
+    <script src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/boot0.js"></script>
+    <script src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/boot1.js"></script>
+
+    <script src="vars.js"></script>
+    <script src="app.js"></script>
+    <script src="app.test.js"></script>
+</body>
+</html>

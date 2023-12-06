@@ -1,0 +1,75 @@
+#extract div{
+    width: 80vw;
+    margin-left: 5vw;
+}
+#extract .arr-enter{
+    width: 14vw;
+}
+#extract button{
+    width: 20vw;
+}
+#extract .answer{
+    color: lightgray;
+    background-color: gray;
+    text-align: center;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    width: 79vw;
+}
+/* ================================ */
+#vowel .str-enter{
+    width: 68vw;
+    margin-left: 5vw;
+}
+#vowel button{
+    width: 20vw;
+}
+#vowel .answer{
+    color: lightgray;
+    background-color: gray;
+    text-align: center;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    width: 79vw;
+}
+/* ================================ */
+#add-key-val div{
+    width: 80vw;
+    margin-left: 5vw;
+}
+#add-key-val .arr-enter{
+    margin-left: 5vw;
+    width: 14vw;
+}
+#add-key-val button{
+    margin-left: 5vw;
+    width: 20vw;
+}
+#add-key-val .answer{
+    color: lightgray;
+    background-color: gray;
+    text-align: center;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    width: 79vw;
+}
+/* ================================ */
+#partition div{
+    width: 80vw;
+    margin-left: 5vw;
+}
+#partition .arr-enter{
+    width: 5vw;
+}
+#partition button{
+    margin-left: 5vw;
+}
+#partition .answer{
+    margin-left: 15vw;
+    color: lightgray;
+    background-color: gray;
+    text-align: center;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    width: 34vw;
+}
